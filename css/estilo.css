@@ -20,6 +20,9 @@
         background-color: #ba53d9;
         color: #fff;
     }
+    .custom-list {
+        list-style-type: disc;
+        color: white;      }
     
     .navbar-brand {
         display: block;
