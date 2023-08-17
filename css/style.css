@@ -41,7 +41,7 @@ a:hover,a:focus,a:active {
 p {
 	color:#8c9398;
 	word-spacing:1px;
-	line-height:25px;
+	line-height:5px;
 	font-size:14px;
 }
 h2 {
@@ -55,7 +55,7 @@ h2::after {
 	border:solid 1px #CCCCCC;
 	display:block;
 	width:65px;
-	margin:20px auto;
+	margin:25px auto;
 }
 h6 {
 	font-size:15px;
@@ -193,7 +193,8 @@ sub {
 p {
 	font-size: 14px;
 	font-weight:100;
-	line-height: 28px!important;
+	word-spacing: -1px;
+	line-height: 23px!important;
 }
 /* ==========================================================================Lists========================================================================== */
 dl,menu,ol,ul {
@@ -583,9 +584,9 @@ table {
 
 
 .intro p {
-	margin:50px 0 0;
+	margin:20px 0 0;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 h1.arrow {
