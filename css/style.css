@@ -196,6 +196,35 @@ sup {
 sub {
 	bottom:-0.25em;
 }
+
+.accordion {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .accordion-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .accordion-item-content {
+    display: none;
+    padding: 10px;
+  }
+
+  /* Estilos para el texto */
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+	color: white;
+  }
 p {
 	font-size: 14px;
 	font-weight:100;
