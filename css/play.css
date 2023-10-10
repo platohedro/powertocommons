@@ -1,119 +1,15 @@
-.audio-player {
-    text-align: center;
-    width: 300px;
-    margin: 0 auto;
-  }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
 
-  .controls {
-    margin-top: 20px;
-  }
-
-  .btn {
-    background-color: #fadb2f;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 24px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    font-family: "Courier New", Courier, monospace;
-    transition: background-color 0.3s;
-  }
-
-  .btn:focus {
-    outline: none;
-  }
-
-  .btn:active {
-    background-color: #ba53d9;
-  }
-
-  .btn.active {
-    background-color: #ba53d9;
-  }
-
-  .volume-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  .volume-container label {
-    margin-right: 5px;
-  }
-
-  input[type="range"] {
-    width: 100px;
-    background-color: #fadb2f;
-  }
-
-  .progress-bar {
-    width: 100%;
-    height: 10px;
-    background-color: #ba53d9;
-    margin-top: 10px;
-    position: relative;
-    cursor: pointer;
-  }
-
-  .progress {
-    height: 100%;
-    background-color: #2c9c73;
-    width: 0%;
-  }
-
-  .current-time,
-  .duration {
-    position: absolute;
-    top: -20px;
-    font-size: 12px;
-  }
-
-  .current-time {
-    left: 0;
-  }
-
-  .duration {
-    right: 0;
-  }
-
-
-  /* slider logos */
-
-  .slider-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .slider {
-    display: flex;
-    width: fit-content;
-    animation: slideLeft 20s infinite linear;
-  }
-  
-  .logo-container {
-    margin-right: 20px;
-  }
-  
-  .slide {
-    flex: 0 0 auto;
-    padding: 10px;
-    margin-right: 20px; /* Agrega un margen derecho de 20px entre las imágenes */
-  }
-  
-  .slide img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  @keyframes slideLeft {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-
+/* Estilos para cada logo */
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
