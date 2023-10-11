@@ -85,6 +85,12 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
+
+
+#reflexiones{
+	padding-bottom: 90px;
+
+}
 /* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
