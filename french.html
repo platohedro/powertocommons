@@ -49,8 +49,9 @@
 				<nav class="menu">
 				    <!-- Menu Links -->
 					<div class="icon-list">
-						<a href="index.html#intropower"><span>Español</span></a>
-						<a href="index.html#assembly"><span>French</span></a>
+            <a href="index.html"><span>English</span></a>
+            <a href="french.html"><span>French</span></a>
+            <a href="español.html"><span>Español</span></a>
 						
 					</div>
 				</nav>
@@ -92,8 +93,16 @@
 		<!-- ==========================
         HEADER SECTION END  
         =========================== -->
-		
-		
+		   <!-- Elemento de alerta oculto -->
+       <div id="custom-alert" class="custom-alert">
+        <h3>⚠️  🛑 🚧 </h3>
+        <p id="alert-english">This page is under construction. Watch out for scaffolding.</p>
+        <p id="alert-spanish">Esta página está en construcción. Cuidado con los andamios.</p>
+        <p id="alert-french">Cette page est en cours de construction. Attention aux échafaudages.</p>
+
+        <button id="close-button" onclick="closeAlert()">Me pongo el casco ⛑️</button>
+   
+    </div>
 		
 		
 		<!-- ==========================
@@ -916,7 +925,19 @@ Dinner together
     }
     </script>
 
+<script>
+window.onload = function() {
+    // Muestra el elemento de alerta personalizado
+    var alertElement = document.getElementById("custom-alert");
+    alertElement.style.display = "block";
+};
 
+function closeAlert() {
+    // Oculta el elemento de alerta personalizado al hacer clic en el botón
+    var alertElement = document.getElementById("custom-alert");
+    alertElement.style.display = "none";
+}
+</script>
 	
     </body>
 </html>
