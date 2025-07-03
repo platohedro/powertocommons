@@ -1033,12 +1033,15 @@ We started working together at the end of 2019. Our collective research was pres
   <script src="js/script.js"></script>
   <script>
     function toggleAccordion(index) {
-      var item = document.querySelectorAll(".accordion-item-content")[index - 1];
-      item.style.display = (item.style.display === "block") ? "none" : "block";
+      const content = document.getElementById(`accordion-content-${index}`);
+      content.style.display = content.style.display === 'none' ? 'block' : 'none';
     }
   </script>
 
-
+  <!-- Botón flotante para ir a la página de streaming -->
+  <a href="streaming.html" class="floating-button">
+   Commoning <br> An opportunity to imagine Another World  
+  </a>
 
 </body>
 

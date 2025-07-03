@@ -1130,6 +1130,34 @@ ul.slides li {
 	}
 }
 /* Bootstrap 990px Breakpoint to 480px */
+/* Estilos para el botón flotante */
+.floating-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #FFE800; /* Amarillo del sitio */
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.floating-button:hover {
+  background-color: #000;
+  color: #FFE800;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
 @media screen and (min-width:480px) and (max-width:991px) {
 	.iphone {
 		display:none;
