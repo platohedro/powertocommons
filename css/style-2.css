@@ -48,7 +48,8 @@ p {
 	color:#8c9398;
 	word-spacing:1px;
 	line-height:5px;
-	font-size:14px;
+	font-size:18px;
+	font-weight: 500;
 }
 h2 {
 	font-size:15px;
@@ -234,10 +235,10 @@ sub {
 	color: white;
   }
 p {
-	font-size: 14px;
-	font-weight:100;
+	font-size: 18px;
+	font-weight: 500;
 	word-spacing: -1px;
-	line-height: 23px!important;
+	line-height: 27px!important;
 }
 /* ==========================================================================Lists========================================================================== */
 dl,menu,ol,ul {
